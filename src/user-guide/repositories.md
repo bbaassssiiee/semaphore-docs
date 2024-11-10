@@ -15,6 +15,8 @@ All Task Templates require a Repository in order to run.
 ## Authentication
 If you are using a remote Repository that requires authentication, you will need to configure a key in the **Key Store** section of Semaphore.
 
+Fore remote repositories accessed over HTTPS, you will need to use 'Login with Password' in the **Key Store** for your username and password/access token combination
+
 For remote Repositories that use SSH, you will need to use your SSH key in the **Key Store**. 
 
 For Remote Repositories that do not have authentication, you can create a Key with the type of `None`.
